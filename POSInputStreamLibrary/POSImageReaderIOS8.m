@@ -70,7 +70,7 @@
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{ @autoreleasepool {
         PHImageManager *imageManager = [PHImageManager defaultManager];
         PHImageRequestOptions *options = [PHImageRequestOptions new];
-        options.version = PHVideoRequestOptionsVersionCurrent;
+        options.version = PHImageRequestOptionsVersionCurrent;
         options.deliveryMode = PHImageRequestOptionsDeliveryModeHighQualityFormat;
         options.resizeMode = PHImageRequestOptionsResizeModeNone;
         options.synchronous = YES;
