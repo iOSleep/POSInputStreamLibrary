@@ -7,6 +7,6 @@
 //
 
 #import "POSBlobInputStream.h"
-#import "POSBlobInputStreamAssetDataSource.h"
+#import "POSBlobInputStreamPHAssetDataSource.h"
 
 #import "NSInputStream+POS.h"

@@ -8,7 +8,6 @@
 
 #import "POSBlobInputStreamPHAssetDataSource.h"
 #import "POSImageReaderIOS8.h"
-#import "POSFastAssetReader.h"
 #import "POSLocking.h"
 #import <Photos/Photos.h>
 
